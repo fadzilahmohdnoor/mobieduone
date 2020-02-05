@@ -6,7 +6,7 @@
     android:background="@color/cardview_shadow_start_color"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".studentregpage">
+    tools:context=".StudentRegisterPage">
 
     <TextView
         android:id="@+id/textView2"
