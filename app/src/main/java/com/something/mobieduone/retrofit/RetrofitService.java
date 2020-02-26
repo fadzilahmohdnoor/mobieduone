@@ -18,7 +18,9 @@ public interface RetrofitService {
                                 @Field("lastName") String lastName,
                                 @Field("level") String level);
 
-    @GET("login.php")
-    Call<user> performLogin(@Query("username") String username, @Query("password") String password);
+    @FormUrlEncoded
+    @POST("login.php")
+    Call<ResponseBody> login(@Field("username") String uname,
+                             @Field("password") String password);
 
 }

@@ -21,14 +21,14 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
 
-public class Teach_home_page extends AppCompatActivity {
+public class TeacherHomePage extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_teach_home_page);
+        setContentView(R.layout.activity_teacher_home_page);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -56,7 +56,7 @@ public class Teach_home_page extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.teach_home_page, menu);
+        getMenuInflater().inflate(R.menu.teacher_home_page, menu);
         return true;
     }
 
