@@ -1,5 +1,6 @@
 package com.something.mobieduone;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
@@ -46,6 +47,8 @@ public class StudentRegisterPage extends AppCompatActivity {
                 @Override
                 public void onResponse(@NotNull Call<ResponseBody> call, @NotNull Response<ResponseBody> response) {
                     Log.d("TEST", "TEST");
+                    Intent intent = new Intent(StudentRegisterPage.this, MainActivity.class);
+                    startActivity(intent);
                     // TODO: Do when success
                 }
 

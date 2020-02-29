@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnLog.setOnClickListener(v -> {
+  /*      btnLog.setOnClickListener(v -> {
             String usern = tuser.getText().toString();
             String passw = tpass.getText().toString();
 
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.e("error", "points not loaded");
                 }
             });
-        });
+        });*/
     }
 }
 
